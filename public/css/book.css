@@ -1,0 +1,6 @@
+.book {
+    box-shadow: 1px 1px 5px #1b1718;
+    background: rgba(35, 121, 208, 0.34);
+    padding: 10px 0;
+    /*border-bottom: 2px solid #111*/
+}

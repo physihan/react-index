@@ -1,0 +1,19 @@
+html {
+  overflow-y: scroll;
+}
+
+:root {
+  overflow-y: auto;/*如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。*/
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+}
+/*或者一直显示进度条*/
+/*overflow-y:scroll;*/
