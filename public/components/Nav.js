@@ -19,12 +19,12 @@ const MyNav = props => {
       <LinkContainer to="/douban">
         <NavItem>豆瓣查书</NavItem>
       </LinkContainer>
-        <NavItem>
-          link
-        </NavItem>
-        <NavItem href=''>
-          link
-        </NavItem>
+      <LinkContainer to="/todo">
+        <NavItem>todo列表</NavItem>
+      </LinkContainer>
+        <LinkContainer to="/game">
+        <NavItem>游戏</NavItem>
+      </LinkContainer>
         <NavDropdown eventKey={3} title='Dropdown' id='basic-nav-dropdown'>
           <MenuItem eventKey={3.1}> Action
           </MenuItem>

@@ -10,6 +10,7 @@ import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 import MainComponent from './MainComponent'
 import ChildComponent from './ChildComponent'
 import FindBook from './components/FindBook/Main';
+import Todo from './components/Todo/Main';
 import './css/main.css';
 // const store = createStore(counterApp,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 const store = createStore(combineReducers({
@@ -29,7 +30,7 @@ render(
         <Route path={"cnt"} component={Counter}></Route>
         <Route path='test' component={ChildComponent}></Route>
         <Route path='douban' component={FindBook}></Route>
-        
+        <Route path='todo' component={Todo}></Route>
       </Route>
     </Router>
   </Provider>,
